@@ -36,7 +36,7 @@ const Contact = () => {
       } else {
         setSuccess(false);
       }
-    } catch (error) {
+    } catch {
       setSuccess(false);
     } finally {
       setIsSubmitting(false);
